@@ -1,0 +1,48 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>YummyCats Petshop</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+  <header>
+    <h1>Form Pemesanan</h1>
+  </header>  
+
+  <nav>
+    <a href="index.html">Beranda</a>
+    <a href="transaksi.html">Pesan</a>
+    <a href="invoice.html">Invoice</a>
+    <a href="kontak.html">Kontak</a>
+  </nav>
+
+  <main class="content">
+    <form id="formTransaksi">
+        <label>Nama:</label>
+        <input type="text" name="nama" required>
+        
+        <label>Email:</label>
+        <input type="email" name="email" required>
+
+        <label>Alamat:</label>
+        <input type="text" name="alamat" required>
+
+        <label>Produk:</label>
+        <input type="text" name="jasa" id="jasa" readonly>
+
+        <label>Tanggal Pemesanan:</label>
+        <input type="date" name="tanggal" required>
+
+        <button type="submit">Buat Pesanan</button>
+    </form>
+  </main>
+
+  <footer>
+    <p>&copy; 2025 YummyCats Petshop</p>
+  </footer>
+
+  <script src="script.js"></script>
+</body>
+</html>

@@ -1,0 +1,62 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Yummycats Petshop</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <header>
+        <h1>YummyCats Petshop</h1>
+        <marquee>Diskon hingga 50% untuk makanan kucing pilihan! pesan sekarang!</marquee>
+    </header>
+
+    <nav>
+        <a href="index.html">Beranda</a>
+        <a href="transaksi.html">Pesan</a>
+        <a href="invoice.html">Invoice</a>
+        <a href="kontak.html">Kontak</a>
+    </nav>
+
+    <aside class="sidebar">
+        <h3>kategori</h3>
+        <ul>
+            <li><a href="#">Makanan Basah</a></li>
+            <li><a href="#">Makanan Kering</a></li>
+            <li><a href="#">Snack Kucing</a></li>
+        </ul>
+    </aside>
+
+    <main class="content">
+        <h2>Produk Makanan Kucing</h2>
+
+        <div class="produk">
+            <img src="makanan kering.jpg" alt="Royal Canin Kitten">
+            <h3>Royal Canin Kitten 1kg</h3>
+            <p>Makanan kering kucing dengan kaya nutrisi</p>
+            <button onclick="pesan('Royal Canin Kitten 1kg')">Pesan Sekarang</button>
+        </div>
+
+        <div class="produk">
+            <img src="snack kucing.jpg" alt="Me-O snack kucing">
+            <h3>Me-O snack kucing 4 pcs</h3>
+            <p>Snack kucing dengan kaya nutrisi</p>
+            <button onclick="pesan('Me-O snack kucing 4 pcs')">Pesan Sekarang</button>
+        </div>
+
+        <div class="produk">
+            <img src="makanan kucing.jpg" alt="Whiskas makanan basah">
+            <h3>Whiskas makanan basah 12 pcs</h3>
+            <p>Makanan basah kucing dengan kaya nutrisi</p>
+            <button onclick="pesan('Whiskas makanan basah 12 pcs')">Pesan Sekarang</button>
+        </div>
+    </main>
+
+    <footer>
+        <p>&copy; 2025 YummyCats Petshop</p>
+    </footer>
+
+    <script src="script.js"></script>
+</body>
+</html>
